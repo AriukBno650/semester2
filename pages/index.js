@@ -82,37 +82,37 @@ export default function Home() {
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">CV Card</h3>
             <p className="text-gray-500 mt-2">Probably my first project using NextJs.</p>
-            <button onClick={() =>router.push("Cv")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("cv")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Color Button</h3>
             <p className="text-gray-500 mt-2">If you click the one of the buttons, background will change color.</p>
-            <button onClick={() =>router.push("Color")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("color")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Weather Web</h3>
             <p className="text-gray-500 mt-2">I converted a web front-end, that i made last year, into nextJs.</p>
-            <button onClick={() =>router.push("Tsagagaar")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("tsagagaar")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Search Engine</h3>
             <p className="text-gray-500 mt-2">You can search any member you want from MongolZ.</p>
-            <button onClick={() =>router.push("Data2")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("data2")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Grid Engine</h3>
             <p className="text-gray-500 mt-2">Click grid, you can see the boxes in grid. Click again, boxes will get back to its default form.</p>
-            <button onClick={() =>router.push("Data")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={()=> router.push("data")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Mongol API</h3>
             <p className="text-gray-500 mt-2">I fetched the data from Mongol API, and made it better looking.</p>
-            <button onClick={() =>router.push("Idid")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("id")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Seconds</h3>
             <p className="text-gray-500 mt-2">I did what teacher told us to do.</p>
-            <button onClick={() =>router.push("Timer")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("timer")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
         </div>
       </section>
