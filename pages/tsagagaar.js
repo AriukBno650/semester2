@@ -63,7 +63,7 @@ export default function tsagagaar() {
                       <h1 class="text-6xl absolute left-16 bottom-16 font-bold text-white">16°</h1>
                   </div>
                   <div class="w-full h-64 bg-slate-700 rounded-3xl flex items-end justify-center relative">
-                      <h1 class="text-slate-400 absolute left-8 font-semibold top-4">TODAY'S FORECAST</h1>
+                      <h1 class="text-slate-400 absolute left-8 font-semibold top-4">TODAYS FORECAST</h1>
                       <div class="w-11/12 h-2/3 mb-8 grid grid-cols-6">
                           <div class="flex flex-col items-center">
                               <h1 class="text-slate-400 font-semibold">6:00 AM</h1>

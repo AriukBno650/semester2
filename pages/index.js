@@ -19,7 +19,7 @@ export default function Home() {
 
       <section id="home" className="flex flex-col items-center justify-center h-screen text-center px-6">
         <h1 className="text-4xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
-          Hi, I'm Ariunbayar
+          Hi, Im Ariunbayar
         </h1>
         <p className="text-gray-200 mt-4 text-lg w-xl">
           I create, develop modern websites and designs.
@@ -33,9 +33,9 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center">
         <h2 className="text-3xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">About Me</h2>
         <p className="text-black mt-4 text-lg w-2xl">
-          I'm a passionate programmer and  UI/UX designer who loves developing 
+          Im a passionate programmer and  UI/UX designer who loves developing 
           fancy and modern websites. With <span className="font-bold">2 years of experience</span> in programming and UI/UX design, 
-          I'm capable to develop <span className="font-bold">websites</span> and some small <span className="font-bold">projects</span>.
+          Im capable to develop <span className="font-bold">websites</span> and some small <span className="font-bold">projects</span>.
         </p>
         <div className="mt-6 flex gap-4">
           <button className="px-6 py-3 bg-violet-600 rounded-xl shadow-lg hover:bg-violet-700 duration-300 transition-all ease-in-out">
