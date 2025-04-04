@@ -14,7 +14,7 @@ export default function Timer(){
     }
   }, [time]);
   return(
-    <div className="w-screen h-screen flex flex-col justify-center items-center">
+    <div className="bg-white w-screen h-screen flex flex-col justify-center items-center">
         <p className="text-black">{time}</p>
         <button className=" bg-white text-black font-mono px-5 py-2 border rounded-lg  hover:shadow-xl hover:bg-gray-300 mx-3" onClick={() =>Router.back()}>Back</button>
 

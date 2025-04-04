@@ -25,7 +25,7 @@ export default function Home() {
           I create, develop modern websites and designs.
         </p>
         <button className="mt-6 px-6 py-3 bg-purple-600 rounded-xl shadow-lg hover:bg-purple-700 duration-300 transition-all ease-in-out">
-          <a href="/projects">View My Projects</a>
+          <a href="#projects">View My Projects</a>
         </button>
       </section>
 
@@ -107,7 +107,7 @@ export default function Home() {
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Mongol API</h3>
             <p className="text-gray-500 mt-2">I fetched the data from Mongol API, and made it better looking.</p>
-            <button onClick={() =>router.push("id")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
+            <button onClick={() =>router.push("idid")} className="bg-teal-700 py-2 px-4 rounded-xl mt-3 hover:bg-teal-900 duration-300 ease-in transition-all">View Project</button>
           </div>
           <div className="bg-white p-6 flex flex-col items-start justify-between rounded-xl shadow-lg hover:shadow-2xl duration-300 ease-in transition-all">
             <h3 className="text-xl font-semibold text-black">Seconds</h3>

@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 
 
-export default function Id() {
+export default function Idid() {
   const router = useRouter();
   const [data, setData] = useState({
     touristAttractions: [],
