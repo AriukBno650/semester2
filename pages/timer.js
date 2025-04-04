@@ -1,8 +1,9 @@
-
 import { useRouter } from "next/router";
+import { useState } from "react";
+import { useEffect } from "react";
 
-export default function timer(){
-    const router = useRouter();
+export default function Timer(){
+    const Router = useRouter();
     const [time, setTime] = useState(0);
   useEffect(() => {
     setTimeout(() => {
@@ -15,7 +16,7 @@ export default function timer(){
   return(
     <div className="w-screen h-screen flex flex-col justify-center items-center">
         <p className="text-black">{time}</p>
-        <button className=" bg-white text-black font-mono px-5 py-2 border rounded-lg  hover:shadow-xl hover:bg-gray-300 mx-3" onClick={() =>router.back()}>Back</button>
+        <button className=" bg-white text-black font-mono px-5 py-2 border rounded-lg  hover:shadow-xl hover:bg-gray-300 mx-3" onClick={() =>Router.back()}>Back</button>
 
     </div>
   );

@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 
 
-export default function tsagagaar() {
+export default function Tsagagaar() {
     const router = useRouter();
     return (
         <body class="w-full h-screen flex items-center justify-center bg-slate-900">

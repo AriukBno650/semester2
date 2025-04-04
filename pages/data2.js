@@ -12,7 +12,7 @@ const usersData = [
 
 ];
 
-export default function data2(){
+export default function Data2(){
     const [search, setSearch] = useState(" ");
     const router = useRouter();
 

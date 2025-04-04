@@ -1,9 +1,8 @@
 
 import React from 'react';
 import { useRouter } from "next/router";
-<script src="https://kit.fontawesome.com/b922fdab7f.js" crossorigin="anonymous"></script>
 
-export default function cv(){
+export default function Cv(){
     const router = useRouter();
     return(
         
